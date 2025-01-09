@@ -324,6 +324,7 @@ img{
 
 .footer{
     margin: 2rem;
+    padding-block: 2rem 8rem;
 }
 
 .footer__container{
