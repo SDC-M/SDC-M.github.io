@@ -96,6 +96,10 @@ img{
     padding-bottom:  .1rem;
 }
 
+.section p{
+    line-height: 2rem;
+}
+
 /*=========== HEADER / NAV ===========*/
 
 .header{
@@ -358,7 +362,7 @@ img{
 }
 
 body.dark-theme{
-    --title-color: hsl(39, 79%, 81%);
+    --title-color: hsl(38, 27%, 74%);
     --text-color: hsl(40, 12%, 70%);
     --body-color: hsl(40, 12%, 16%);
     --container-color: hsl(43, 22%, 13%);
@@ -485,7 +489,7 @@ body.dark-theme{
     }
 
     .dark-theme .resume{
-        box-shadow: 0 0 48px hsla(40, 48%, 4%, .4);
+        box-shadow: 0 0 48px hsla(41, 27%, 25%, 0.4);
     }
 
     .nav{
