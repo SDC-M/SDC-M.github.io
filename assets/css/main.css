@@ -323,7 +323,6 @@ img{
 /* =========== FOOTER =========== */
 
 .footer{
-    padding-block: 2.5rem 8rem;
     margin: 2rem;
 }
 
@@ -412,6 +411,9 @@ body.dark-theme{
         grid-template-columns: max-content;
         row-gap: 1.5rem;
     }
+    .footer{
+        padding-block: 2.5rem 8rem;
+    }
 }
 
 @media screen and (min-width: 576px){
@@ -422,6 +424,9 @@ body.dark-theme{
     
     .footer__container{
         grid-template-columns: repeat(3, max-content);
+    }
+    .footer{
+        padding-block: 2.5rem 8rem;
     }
 }
 
