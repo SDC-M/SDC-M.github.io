@@ -213,8 +213,8 @@ img{
 }
 
 .home__img{
-    width: 205px;
-    transform:  translateY(1px);
+    width: 215px;
+    transform:  translateY(15px);
 }
 
 .home__code-1,
