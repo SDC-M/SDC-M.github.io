@@ -30,8 +30,8 @@
 @media screen and (min-width: 1024px){
     :root {
         --biggest-font-size: 3.75rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .938rem;
+        --normal-font-size: 1.1rem;
+        --small-font-size: 0.938rem;
     }
 }
 
@@ -51,6 +51,7 @@ body{
     font-weight: var(--font-medium);
     background-color: var(--container-color);
     color: var(--text-color);
+    line-height: 1.5;
 }
 
 h1,h2,h3,h4{
@@ -73,6 +74,11 @@ img{
 }
 
 /*=========== REUSABLE CSS CLASSES ===========*/
+#interests{
+    list-style-type: disc;
+    line-height: 25px;
+}
+
 .container{
     margin-inline: 1.5rem;
 }
@@ -213,7 +219,7 @@ img{
 }
 
 .home__img{
-    width: 215px;
+    width: 220px;
     transform:  translateY(15px);
 }
 
@@ -272,7 +278,6 @@ img{
 .skills__list{
     display: grid;
 }
-
 .skills__content{
     grid-template-columns: repeat(2, max-content);
     align-items: baseline;
@@ -303,7 +308,7 @@ img{
 .resume__data{
     display: grid;
     row-gap: .5rem;
-    padding-left: 1.5rem;
+    padding-left: 1.5rem;   
     font-size: var(--small-font-size);
 }
 
@@ -319,6 +324,22 @@ img{
     text-decoration: underline;
 }
 
+.work_list{
+    margin-left: 1rem;
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+.education_list{
+    margin-left: 1rem;
+    list-style-position: inside;
+}
+
+.resume__right{
+    #LGF{
+        padding-left: 1.5rem;
+    }
+}
 /* =========== FOOTER =========== */
 
 .footer{
@@ -539,4 +560,5 @@ body.dark-theme{
     .footer{
         padding-block: 2.5rem 2rem;
     }
+
 }
