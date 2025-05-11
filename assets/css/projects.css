@@ -1,0 +1,16 @@
+#projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+    ul {
+        list-style-type: '~/';
+    }
+}
+
+p {
+    margin-left: 2rem;
+    line-height: 2rem;
+    animation: typing 2s steps(30) forwards;
+}

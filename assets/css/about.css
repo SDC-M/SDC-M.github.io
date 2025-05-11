@@ -1,0 +1,21 @@
+@import url(/assets/css/main.css);
+
+#presentation {
+    margin: 3rem;
+}
+
+.text {
+    padding-left: 1rem;
+    border-left: 1px solid black;
+    animation: typing 2s steps(30) forwards;
+}
+
+.dark-theme .text {
+    border-left: 1px solid white;
+}
+
+@media screen and (max-width: 760px) {
+    #presentation {
+        margin-top: 0.5rem;
+    }
+}
