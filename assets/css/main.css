@@ -21,7 +21,6 @@ body {
     display: flex;
     flex-direction: column;
     border: solid 1px black;
-
 }
 
 .navbar-container,
@@ -111,8 +110,7 @@ li {
         border-bottom: 1px solid white;
     }
 
-    .page-container,
-    .navbar  {
+    .page-container  {
         border: 1px solid white;
     }
 
