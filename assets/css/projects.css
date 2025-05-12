@@ -14,3 +14,9 @@ p {
     line-height: 2rem;
     animation: typing 2s steps(30) forwards;
 }
+
+@media screen and (max-width: 760px) {
+    #projects {
+        margin-top: 0.5rem;
+    }
+}

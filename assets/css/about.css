@@ -17,5 +17,6 @@
 @media screen and (max-width: 760px) {
     #presentation {
         margin-top: 0.5rem;
+        margin-left: 2rem;
     }
 }
