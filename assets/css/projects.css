@@ -1,22 +1,44 @@
 #projects {
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
+    border-left: 1px solid black;
     margin: 3rem;
     ul {
         list-style-type: '~/';
     }
 }
 
+ h1, h2, h3, h4, h5 {
+    padding-left: 1rem;
+    margin-top: 0;
+}
+
+li {
+    margin: 1rem;
+}
+
+p{
+    padding-left: 1rem;
+}
+
+ul {
+    list-style-position: inside;    
+}
+
 p {
-    margin-left: 2rem;
-    line-height: 2rem;
     animation: typing 2s steps(30) forwards;
 }
+
+.dark-theme #projects {
+    border-left: 1px solid white;
+}
+
 
 @media screen and (max-width: 760px) {
     #projects {
         margin-top: 0.5rem;
+        margin-left: 2rem;
     }
 }
+
