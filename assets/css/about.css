@@ -5,6 +5,7 @@
 }
 
 .text {
+    margin-top: 0;
     padding-left: 1rem;
     border-left: 1px solid black;
     animation: typing 2s steps(30) forwards;

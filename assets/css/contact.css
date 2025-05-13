@@ -1,7 +1,13 @@
 @import url(/assets/css/main.css);
 
 #contact {
+    padding-left: 1rem;
     margin: 3rem;
+    border-left: 1px solid black;
+}
+
+.dark-theme #contact {
+    border-left: 1px solid white;
 }
 
 @media screen and (max-width: 760px) {
