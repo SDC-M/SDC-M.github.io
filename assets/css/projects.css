@@ -22,6 +22,10 @@ p{
     padding-left: 1rem;
 }
 
+p:last-child {
+    margin-bottom: 0;
+}
+
 ul {
     list-style-position: inside;    
 }
