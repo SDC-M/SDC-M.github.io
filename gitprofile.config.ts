@@ -29,7 +29,7 @@ const CONFIG = {
   },
   seo: {
     title: 'Portfolio de Sébastien De-backer',
-    description: 'Portfolio de Sébastien De-backer, étudiant en Licence Informatique à l'université de Rouen Normandie',
+    description: 'Portfolio de Sébastien De-backer, étudiant en Licence Informatique à l\'université de Rouen Normandie',
     imageURL: '',
   },
   social: {
