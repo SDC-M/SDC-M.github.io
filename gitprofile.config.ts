@@ -112,9 +112,9 @@ const CONFIG = {
   },
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'procyon',
 
-    disableSwitch: false,
+    disableSwitch: true,
     respectPrefersColorScheme: false,
     displayAvatarRing: true,
 
