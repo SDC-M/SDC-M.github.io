@@ -33,7 +33,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'sebastien-de-backer-cuvelier',
+    linkedin: 'sébastien-de-backer-cuvelier',
     x: '',
     mastodon: '',
     researchGate: '',
