@@ -12,7 +12,7 @@ const CONFIG = {
       mode: 'automatic',
       automatic: {
         sortBy: 'stars',
-        limit: 8,
+        limit: 10,
         exclude: {
           forks: true,
           projects: [],
@@ -33,7 +33,7 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'sébastien-de-backer-cuvelier', 
+    linkedin: 'sebastien-de-backer-cuvelier',
     x: '',
     mastodon: '',
     researchGate: '',
@@ -41,18 +41,18 @@ const CONFIG = {
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', 
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
     medium: '',
     dev: '',
-    stackoverflow: '', 
+    stackoverflow: '',
     discord: '',
     telegram: '',
     website: '',
     phone: '',
-    email: 'sebastien.cuvelier@univ-rouen.fr', 
+    email: 'sebastien.cuvelier@univ-rouen.fr',
   },
   resume: {
     fileUrl: '',
@@ -103,21 +103,22 @@ const CONFIG = {
   ],
   publications: [],
   blog: {
-    source: 'dev', 
-    username: '', 
-    limit: 2, 
+    source: 'dev',
+    username: '',
+    limit: 2,
   },
   googleAnalytics: {
-    id: '', 
+    id: '',
   },
-  hotjar: { id: '', snippetVersion: 6 },
+  hotjar: {
+    id: '',
+    snippetVersion: 6
+  },
   themeConfig: {
     defaultTheme: 'procyon',
-
     disableSwitch: true,
     respectPrefersColorScheme: false,
     displayAvatarRing: true,
-
     themes: [
       'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate',
       'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden',
