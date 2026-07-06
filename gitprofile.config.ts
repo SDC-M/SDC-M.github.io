@@ -55,7 +55,7 @@ const CONFIG = {
     email: 'sebastien.cuvelier@univ-rouen.fr',
   },
   resume: {
-    fileUrl: '',
+    fileUrl: '/cv.pdf',
   },
   skills: [
     'Python',
