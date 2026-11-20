@@ -80,11 +80,24 @@ const CONFIG = {
       companyLink: 'https://www.ariane.group/',
     },
   ],
-  certifications: [],
+  certifications: [
+    {
+      name: 'Cloud Concepts 101 - Deployments Essentials',
+      body: '',
+      year: 'Novembre 2026',
+      link: 'https://certopus.com/c/8b38c6bb5cde4a47ae73de6a248dc412',
+    },
+  ],
   educations: [
     {
       institution: 'Université de Rouen Normandie',
-      degree: 'Licence Informatique (3ème année)',
+      degree: 'Master Génie Logiciel (1ère année)',
+      from: '2026',
+      to: '2027',
+    },
+    {
+      institution: 'Université de Rouen Normandie',
+      degree: 'Licence Informatique',
       from: '2023',
       to: '2026',
     },
